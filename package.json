@@ -4,10 +4,10 @@
   "description": "Extracts artist name and song title from filenames and writes them as ID3 to those files",
   "main": "index.ts",
   "dependencies": {
-    "browser-id3-writer": "4.4.0",
     "glob": "^7.2.0",
     "guess-metadata": "1.2.2",
     "minimist": "1.2.5",
+    "node-id3": "^0.2.3",
     "tsm": "2.2.1"
   },
   "author": "Alexander Wallin <office@alexanderwallin.com> (http://alexanderwallin.com)",
