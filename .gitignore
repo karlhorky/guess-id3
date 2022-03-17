@@ -61,3 +61,5 @@ typings/
 # Package ignores
 dist
 fixtures
+
+*.tsbuildinfo

@@ -2,36 +2,17 @@
 
 Extracts artist name and song title from filenames and writes them as ID3 v2.3 to those files.
 
-
 ## Installation
 
-```sh
-# For use in JavaScript
-npm install guess-id3
-
-# For use from the command line
-npm install -g guess-id3
-```
-
+Clone this repository
 
 ## Usage
 
 ### From the command line
 
 ```sh
-$ guess-id3 [--dry] [--verbose] 'music/**/*.mp3'
+$ yarn tsm index.ts [--dry] [--verbose] 'music/**/*.mp3'
 ```
-
-### In JavaScript
-
-```js
-import guessId3 from 'guess-id3'
-
-guessId3('music/**/*.mp3', { dry: false, verbose: false }).then(() => {
-  console.log('Done!')
-})
-```
-
 
 ## API
 
