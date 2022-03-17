@@ -57,7 +57,7 @@ const args = parseArgs(process.argv.slice(2), {
 const globs = args._[0];
 
 if (args.help || args.h) {
-  console.log('guess-id3 [--dry] [--verbose] <pattern> [<pattern> ...]');
+  console.log('guess-id3 [--dry] [--verbose] <pattern>');
   process.exit(0);
 }
 
